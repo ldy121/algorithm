@@ -1,0 +1,40 @@
+There are several steps to connect USB properly.
+
+At first USB connection, the probability of correct direction indicates p value, the probability of wrong direction indicates (1 - p) value
+
+The probability that USB will function correctly in the correct USB direction indicates the q value and the probability of malfunction is (1 - q) value
+
+If USB direction is wrong, it will not work.
+
+If USB connection fails, try USB in the opposite direction.
+
+
+
+S[i] indicates the probability ithat USB will function properly on the i tries.
+
+You have to discriminate satisifying this condition (S[1] < S[2]) using p value and q value
+
+
+[ Input ]
+
+At first line has a TC value that indicates the number of test cases
+
+From the second line, there are p and q values in each test case (0 <= p < 1, 0 <= q < 1)
+
+It can make sure that | S[1] - S[2] | > 100000
+
+
+[ Output ]
+
+At first print #t (t means test case number), after that it prints 'YES' if S[1] < S[2].
+If not print 'NO'
+
+[Input example]
+
+2				# The number of testcase TC = 2
+0.8 0.5				# First test case p = 0.8, q = 0.5
+0.6 0.5				# Second test case p = 0.6, q = 0.5
+
+[Output example]
+#1 YES				# The result of first test case
+#2 NO				# The result of second test case
