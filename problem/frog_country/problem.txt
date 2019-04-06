@@ -1,0 +1,36 @@
+There N cities in frog country and A[i] frogs live in each city.
+
+A person plans to destory the frog country.
+
+A person can destroy a city every day.
+When A[i] city is destoryed, all frogs living in the city are kidnapped.
+
+Also when A[i] city is destroyed, the frogs living in A[i - 1] and A[i + 1] cities
+can run away becuase they know the city had been destroyed.
+And the next day of the destroy frogs living in  A[i - 2] ann A[i + 2] cities can
+run away because of the news is propaged every day.
+(Even if there is no frog in the city, news will be spread to neighboring cities)
+
+You have to know how many frogs you can kidnap
+
+[Input]
+
+The first line contains the number of cases TC. From the second line there is an input for each case.
+
+The first line of the input case contains an N representing the number of cities (1 <= N <= 1000000)
+The second line contains N numbers A[1], A[2], --- A[n} ( 0 <= A[i] <= 1000000000)
+
+[Output]
+Print '#x'(x means test number from 1).
+After that print the maximum number of frog to be kidnapped.
+
+[ Input Example ]
+2			//	the number of test case
+2			//	N = 2
+10 20			//	A[1] = 10, A[2] = 20
+6
+5 9 1 3 7 2
+
+[ Output Example ]
+#1 20			//	The result of first test case
+#2 16
