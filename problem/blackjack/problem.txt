@@ -1,0 +1,56 @@
+There is a person who likes Blackjack a lot.
+
+There are 52 cards in the Blackgack game.
+There are four cards each, from 2 to 9.
+And there are four cards in 11 points.
+Finally there are 16 cards for 10 points.
+
+At first, all of cards turned upside down.
+A player wants the sum of the card value to be less than 21.
+
+Therefore if the player has already drawn N cards,
+there will still be 52-N cards on the deck
+The player is thinking whether or not he wants to take a card.
+
+So if the number of card making it equal or greater than 21 is greater than
+the number of cards making less than 21, the player will give up the game.
+
+Please make a program that decides to take a card.
+
+[ Input ]
+
+The first line contains the TC for the number of test cases
+From the second line, there is input information for each test case
+
+First line is for the number of the cards N (1 <= N <= 52)
+From the second line of each test case,
+there are N lines for the value of the card selected by the player.
+There is no out of state condition.
+(Each card value is from 2 to 11 and
+the same card can not be displayed more than four times)
+
+[ Output ]
+
+Print '#T' (T means test case number from 1).
+When the player give up, print 'STOP'
+When the player will take a card, print 'GAZUA'
+
+[Input Example]
+3		// The number of test case TC = 3
+6		// For the first test case N = 6
+2		// Cards the player picked up = [2, 3, 2, 3, 2, 3]
+3
+2
+3
+2
+3
+1		// For the second test case N = 1
+10		// Cards the player picked = [10]
+2		// For the third test case N = 2
+6		// Cards the player picked up = [6, 5]
+5
+
+[Output Example]
+#1 STOP		// The first test case
+#2 GAZUA	// The second test case
+#3 GZZUA	// The third test case
