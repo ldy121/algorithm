@@ -1,0 +1,50 @@
+There are N + 1 polynomial expresssions f[0](x)f[1](x)...f[N](x).
+
+The result depends on the three nuumbers t[i], a[i], b[i] if i >= 2 (f[0](x) = 1, f[1](x) = x)
+
+	- If t[i] = 1, f[i](x) = f[a[i]](x) + f[b[i]](x)
+
+	- If t[i] = 2, f[i](x) = a[i] * f[b[i]](x)
+
+	- If t[i] = 3, f[i](x) = f[a[i]](x) * f[b[i]](x)
+
+When there are M numbers x[1],x[2],...,x[M], make a program to get result f[N](x[1])f[N](x[2])...f[N](x[M]).
+
+[ Input ]
+
+There is T value for # of test cases
+
+Each test case has N value (2 <= N <= 50)
+
+And next There are three numbers t[i], a[i], b[i] on ith line
+(1 <= t[i] <= 3, 0 <= a[i], b[i] <= i - 1)
+(2 <= i <= N)
+
+The next line has M value (1 <= M <= 50)
+
+The next line contains numbers x[1],x[2],...,x[M] (0 <= x[i] < 998,244,353) and
+
+there is a space between two numbers to serperate.
+
+[ Output ]
+
+At first print #x (x means test case number) in each test case.
+
+Print the results and seperate the results with a space.
+f[N](x[1]),f[N](x[2]),...,f[N](x[M])
+
+The number may be too high.
+
+When print the results, it needs to module operation that uses 998,244,353
+
+Input Example
+1		# the number of testcase
+4		# N = 4
+1 0 1		# t[2] = 1, a[2] = 0, b[2] = 1
+2 2 2		# t[3] = 2, a[3] = 2, b[3] = 2
+3 2 3		# t[4] = 3, a[4] = 2, b[4] = 3
+4		# M =4
+0 1 2 3		# x[1] = 0, x[2] = 1, x[3] = 2, x[4] = 3
+
+Output Example
+# 1 2 8 18 32
