@@ -1,0 +1,36 @@
+Use the first two numbers to creata program that represents two significant digits.
+
+For example if there is a number 588235, it is possible to express 5.88235 * 10^5.
+
+In that case, the number can be expressed as 5.9 * 10^5 rounded to the second decimal place.
+
+There is another example. For 9999, it will be possible to be expressed as 9.999 * 10^3.
+
+And if it is adjusted by rounding it to the second decimal place, it can be expressed as 1.0 * 10^4
+
+[ Input ]
+
+The first line contains the number of the test case.
+
+After that, a new line can seperate each test case.
+
+Every test case has a number N (10^2 <= N <= 10^100000)
+
+[ Output ]
+
+In all test cases, print '#t'(t means test case number starting at 1).
+
+Print first two significant digits using example format
+
+[ Input Example ]
+4				# the number test case = 4
+100				# the first test case N = 100
+999				# the second test case
+588235				# the third test case
+60221409000000000000000		# the fourth test case
+
+[ Output Example ]
+#1 1.0 * 10^2			# the result of first test
+#2 1.0 * 10^4			# the result of second test
+#3 5.9 * 10^5			# the result of third test
+#4 6.0 * 10^23			# the result of fourth test
