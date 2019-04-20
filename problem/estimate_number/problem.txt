@@ -1,0 +1,51 @@
+There are two people
+
+They are playing a number-matching game.
+
+The rule of the game is very simple.
+
+The player thinks the number and the other player asks a few questions for match.
+
+There are N questsions.
+
+The player can ask a question about four numbers at a time.
+
+The other player has to answer the question to see whether the number he thinks is on the list.
+
+If the number is in the question, he has to say YES
+
+But if not, he should say NO
+
+Create a program for the number matching game.
+
+[ Input ]
+
+The first line contains the number of test cases
+
+From second line, there is information about each test case.
+
+The first line of test case has the number of questions.
+
+Then there are as many lines as there are questions.
+
+And each line contains four numbers and an answer (YES or NO)
+
+The four numbers and the answer are seperated by a space.
+
+The questions and answers in the test cases provide us enough information to get the number that the player thinks.
+
+[ Output ] 
+
+In all test cases, print '#x' (x means test number and starts at 1)
+
+Print the number that the player thinks.
+
+[ Input Example ] 
+1				# the number of test case = 1
+3				# the number of questions = 3
+0 5 4 2 YES			# 0, 5, 4, 2 there is the number a player thinks in the list
+4 0 1 9 NO			# 4, 0, 1, 9 there is not the number a player thinks in the list
+2 8 7 6 NO			# 2, 8, 7, 6 there is not the number a player thinks in the list
+
+[ Output Example ]
+#1 5				# test case result
