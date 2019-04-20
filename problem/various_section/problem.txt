@@ -1,0 +1,30 @@
+There is a sequence A[1],A[2], ... , A[n] which containing from 1 to K.
+
+The definition of various section is that the sequence A[i], A[i + 1], ..., A[j - 1], A[j] contains from 1 to K ( 1 <= <= j <= N).
+
+If there are A values, create a program that calculates the number of variable secion.
+
+[ Input ] 
+
+The first line contains the number of test cases
+
+There are two numbers N, K (1 <= K <= N <= 10^5). And there is a space to separate the two numbers.
+
+There are N numbers A[1], A[2], ..., A[N} (1 <= A[i] < K). There are blanks to separate between each numbers.
+
+[ Output ]
+
+In all test cases print '#x'. (x means test case number starting from 1)
+
+Print the number of various section.
+
+[Input Example]
+2			// The number of test case
+5 3			// The first test case N = 5, K = 3
+1 2 3 1 2		// A[1] = 1, A[2] = 2, A[3] = 3, A[4] = 1, A[5] 2
+4 2
+1 1 1 1
+
+[Output Example]
+#1 6			// The result of first test case
+#2 0
