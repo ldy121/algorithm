@@ -1,0 +1,48 @@
+A person received circle bulbs as birthday present.
+
+N switches are numbered from 1 to N and are located clockwise.
+
+There is a light bulb beween two switches.
+
+Initially all the bulbs are turned off.
+
+The state of light bulb changs when a person touchs switchs.
+
+( on -> off / off -> on )
+
+It is time to go to bed.
+
+A person has to turn off all lgith bulbs to fall asleep.
+
+Turning off all bulbs means that n * (n - 1) / bulbs must be off.
+
+A person wants to fall aleep by touching the N switchs.
+
+Do you think he can fall asleep?
+
+[ Input ]
+
+The first line has TC value that indicates the number of test cases.
+
+All test cases are separated by new line.
+
+Each test case contains is as follow.
+
+The first line of test case contains the number N representing the number of bulbs. (2 <= N <= 1000)
+
+The second line in test case contains the number M indicating the number of bulbs that have been turned off.
+(0 <= m < (n * (n - 1)) / 2)
+
+Thereafter there are m lines and the each line contains two numbers A[i], B[i].
+
+This means that the light bulb between A[i] and B[i] switches is off.
+
+[ Output ]
+
+Print '#x' (x means the test case number starting at 1)
+
+Print the result whether a person can turn off all light bulbs.
+
+If it is possible to turn off all bulbs, print 'DA'
+
+But if not, print 'NE'
