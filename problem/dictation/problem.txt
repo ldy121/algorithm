@@ -1,0 +1,44 @@
+A person is scheduled to enter elementary school but he has not yet mastered the alphabet.
+
+So his parent subscribes home-study material to let him study the alphabet.
+
+There is a string of length N. He has to seperate the upper and lower case letters and write them properly.
+
+He succeed in writing N characters. However there are incorrect characters in his answer.
+
+Create program that counts proper number of letters he writes.
+
+[ Input ]
+
+The first line contains value TC for the number of test cases.
+
+Test cases are seperted into a new line.
+
+Each test case includes:
+
+	- There is N value that indicates the length of the string (1 <= N <= 100000)
+	
+	- The second line contains a home-study material string.
+
+	- The third line contains the string that he answered.
+
+	- Both string contains only uppercase or lowercase alpahbets, and the length is equal to the N value representing the first line.
+
+[ Output ]
+
+Print '#t' (t means the test case number starting at 1)
+
+Print the correct number of characters he has written.
+
+[ Input Example ]
+2
+16
+MyNameIsSekChan
+mynameisseokchan
+15
+SamsungSoftware
+MembershipZzang
+
+[ Output Example ]
+#1 11
+#2 2
