@@ -1,0 +1,39 @@
+Someone had studied alphabet dictation, but did not master the alphabet yet.
+
+Someone wants to teach him because he can be teased by his classmates.
+
+He will makes many alphabat word training sets to make him good at dictation.
+
+He knows N English words and he will pick up some words to make a set.
+
+The order of the words is not important.
+
+The word set contains all 26 alphabetic character to study all the alphabets.
+
+This means that the word set contains at least character.
+
+He tought that creating as many different sets as possible, would help him to study well.
+
+Creat a program see how many sets he can make.
+
+[ Input ]
+
+The first line contains the number of test case
+
+Each test case is separated by a new break.
+
+Each test case includes:
+
+- The first line of test case contains the number of words he knows.
+
+- Then after there are N lines and each line contains a word.
+
+- The word contains only lowercase letters.
+
+- The length of word is between 1 and 100, all words are different.
+
+[ Output ]
+
+Print '#x' (x means the test case number starting at 1)
+
+Print the number of word sets he can make
