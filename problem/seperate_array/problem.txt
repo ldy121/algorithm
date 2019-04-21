@@ -1,0 +1,39 @@
+There is an array of n length.
+
+Someone properly separates it into to partially contiguous arrays.
+
+Partial arrays are sorted in ascending or descending order.
+
+How can he archieve his purpose with minimal partitioning?
+
+[ Input ]
+
+The first line contains the TC value for the number of test cases.
+
+TC test cases are seperated by a newline.
+
+Each test case includes:
+
+The first line of test case has value n for length of the array (1 <= n <= 100000)
+
+After that, there are n number. A[i] (1 <= A[i] <= 10^9)
+
+[ Output ]
+
+Print '#x' (x means the test case number starting at 1)
+
+Print minimum number of paritions.
+
+[ Input Example ]
+3				# the number of test cases
+4				# the fist test case n = 4
+1 1 1 1				# A[1] = 1, A[2] = 1, A[3] = 1, A[4] = 1
+6
+1 2 4 3 3 1
+9
+1 2 1 2 1 2 1 2 1
+
+[ Output Example ]
+#1 1				# the result of test case
+#2 2
+#3 5
