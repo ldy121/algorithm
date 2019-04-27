@@ -1,0 +1,50 @@
+There is a person who cut a large choclocate into m x n small chocolates
+
+Each small chocolate contains one or more raisins.
+
+He cuts a large chocholate to two small chocolates.
+
+And he has to keep doing this job until m x n small chocolates are made.
+
+He is very busy. So he hires another person to do this job.
+
+A hired person can recive conpensation for the number of raisin.
+
+When cutting a large chocolate into two small chocolates, he can recevie as much conpensation as the number of raisins in the big chocolate.
+
+The employer does not want to make a lot of conpensation
+
+Please create a program to receive minimum compensation.
+
+[ Input ]
+
+The first line contains the TC value for the number of test cases.
+
+Test cases are separated by new line.
+
+Each test case includes:
+
+The first line of testcase contains two values n, m (1 <= n, m <= 50)
+
+From the second line of testcase there are n lines for m anumbers A[i][j]
+
+A[i][j] means the number of raisins in the chocolate are.
+
+[ Output ] 
+
+Print '#x' (x means testcase number starting at 1)
+
+Print the minumum compensation value.
+
+[Input Example]
+2			// The number of test cases
+2 2			// n = 2, m = 2
+1 1			// A[1][1] = 1, A[1][2] =1
+1 1			// A[2][1] = 1, A[2][2] =1
+2 3			// n = 2, m = 3
+2 7 5			// A[1][1] = 2, A[1][2] = 7, A[1][3] = 5
+1 9 5			// A[2][1] = 1, A[2][2] = 9, A[2][3] = 5
+
+[Output Example]
+#1 8
+#2 77
