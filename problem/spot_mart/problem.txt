@@ -1,0 +1,47 @@
+A person stops by a spot mart and buys two snacks and take them to home by his hands.
+
+There are N snacks with weight A[i] at spot mart.
+
+He wants to choose two heavy snacks as possible.
+
+However if the sum of two stack weights is greater than M, he can not take them.
+
+Print the maximum weight sum of two stacks. Keep in mind that he can only choose two snacks.
+
+[ Input ] 
+
+The first line contains TC value for the number of test cases.
+
+Test cases are separated by new line.
+
+Each test case includes:
+
+	- The first line of the test case contains the numbers N(# of snacks) and M(limitation of weight sum)
+	  (2 <= N <= 1000, 2 <= M <= 2000000)
+
+	- After that, there are N lines for snack weights (1 <= A[i] <= 1000000)
+
+[ Output ]
+
+Print '#x'(x mean the test case number starting at 1)
+
+Print the maximum sum weight of two snacks.
+
+Print -1, if he can not take two snacks.
+
+[ Input Example ]
+4		# the number of test cases
+3 45		# the first test case N = 3, M= 45
+20 20 20	# three snack's weights A[1] = 20, A[2] = 20, A[3] = 20
+6 10
+1 2 5 8 9 11
+4 100
+80 80 60 60
+4 20
+10 5 10 16
+
+[ Output Example]
+#1 40
+#2 10
+#3 -1
+#4 20
