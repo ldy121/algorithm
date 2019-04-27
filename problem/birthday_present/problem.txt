@@ -1,0 +1,53 @@
+A baby received a set of disk game as a birthday present.
+
+The game set has n stacked circular holes.
+
+A baby drops circular disk from above.
+
+The disk can pass when the radius of the disk is greater or equal to the hole.
+
+However if the hole is small, there is a disk, the disk stops.
+
+Print the location of the last disk
+
+[ Input ]
+
+The first line contains the TC value which is the number of test cases.
+
+Each test case is separated by new line.
+
+The test case includes:
+
+	- The first line of the test case contains n (# of holes) and q (# of disks) (1 <= n,q <= 300000 )
+
+	- The second line contains n numbers that represent the hole radius of the game set. (1 <= r[i] <= 1000000000)
+
+	- The third line contains q numbers that represent radus of disk (1 <= x[i] < 1000000000)
+
+[ Output ]
+
+Print '#x' (x means test case number starting at 1)
+
+If the disk can fit in the game set, print the location of the last disk.
+
+If not, print 0.
+
+The location means the hole number.
+
+[ Input Example ]
+
+3			# the number of test cases
+3 2			# n = 3, q = 2
+30 20 10		# r[1] =30, r[2] = 20, r[3] = 10
+21 10			# x[1] = 21, x[2] = 10
+3 2
+30 20 10
+20 10
+7 3
+50 60 40 30 60 20 30
+30 20 50
+
+[ Output Example ]
+#1 0
+#2 1
+#3 2
