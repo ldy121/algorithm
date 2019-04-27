@@ -1,0 +1,46 @@
+A person has to do N homework.
+
+He has to submit his homework D[i] night.
+
+It also takes T[i] days to finish the homework.
+
+He has homework all day but does not do other homework at the same time.
+
+He will begin homework on the morning of the 0 day.
+
+But he was so drunk last night and would like to rest for X days.
+
+He is going to start homework from X + 1 days.
+
+Create a program to get the maximum X value to complete all homework.
+
+[ Input ] 
+
+The first line contains the TC value for the number of test cases.
+
+Test cases are separated by new line.
+
+Each test case includes:
+
+	- The first line of test case contains the N value for the number of homework assigements (1 <= N <= 1000000)
+
+	- There are N lines containing T[i], D[i] (1 <= T[i], D[i] <= 1000000000)
+
+[ Output ]
+
+Print '#x' (x mean test case number)
+
+Print the maximum X value.
+
+[ Input Example ]
+2			// The number of test cases
+1			// The first test case N = 1
+5 9			// T[1] = 5, D[1] = 9
+3
+2 8
+1 13
+3 10
+
+[ Output Example ]
+#1 4			// The first test case result
+#2 5
