@@ -1,0 +1,83 @@
+There is a parking lot with n parking spaces for cars.
+
+The parking lot is open daily and operates in following ways.
+
+- When a car arrives, check available parking area.
+
+- If there is no parking area, the car has to wait at the entrance.
+
+- If there are parking areas, the car has to park at the lowest parking area number.
+
+- If there are many cars to wait for parking, they have to wait for their turn at the entrance.
+
+- The parking fee vary by parking spaces. And the charge is to the mutiply car's weight by parking charge.
+
+- Parking fee does not take into account the parking period.
+
+The parking lot manager knows the order of m cars coming into the parking lot.
+
+Make a program that he can earn money in one day.
+
+[ Input ]
+
+The first line has TC values that represents the number of test cases.
+
+Each test case is separated by new line.
+
+The test case includes:
+
+- The first line of test case contains number n and m.
+
+- There are n lines containing R[i] value for parking charge.
+
+- There are m lines containing W[i] value for the weight of car. The car number is not related to order for entering paking lot. ( 1<= W[i] =<= 10000)
+
+- After that, there are 2 * m lines for entering parking lot.
+  If the value is positive, that means x car comes into the parking lot.
+  If the value is negative, that means x car comes out the parking lot.
+
+There is not special cases when the car comes out before the car enters the parking lot.
+
+All cars from 1 to m exactly enter parking lot only once.
+
+Also there is no case the car comes back from the entrance.
+
+[ Output ]
+
+Print #t (t means test case number starting at 1).
+
+Print money how much money he can a day.
+
+[ Input Example ]
+2			# the number of test case = 2
+3 4			# the first test case n = 3, m = 4
+2			# parking charge = {2, 3, 5}
+3
+5
+2			# car's weights = {2, 1, 3, 8]
+1
+3
+8
+3			# car number 3 comes into the parking lot
+2			# car number 2 comes into the parking lot
+-3			# car number 2 comes out the parking lot
+1			# car number 1 comes into the parking lot
+4			# car number 4 comes into the parking lot
+-4			# car number 4 comes out the parking lot
+-2			# car number 2 comes out the parking lot
+-1			# car number 1 comes out the parking lot
+2 4			# the second test case n = 2, m = 4
+5			# parking charge = {5, 2}
+2
+100			# car's weights = {100, 500, 1000, 2000}
+500
+1000
+2000
+3			# car number 3 comes into the parking lot
+1			# car number 1 comes into the parking lot
+2			# car number 2 comes into the parking lot
+4			# car number 4 comes into the parking lot
+-1			# car number 1 comes out the parking lot
+-3			# car number 3 comes out the parking lot
+-2			# car number 2 comes out the parking lot
+-4			# car number 4 comes out the parking lot
