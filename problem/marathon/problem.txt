@@ -1,0 +1,52 @@
+A person holds on marathon competition.
+
+There are n checkpoints in the marathon.
+
+Attendee should visit N th checkpoint sequentially from the first checkpoint.
+
+The distance is calculatd in coordiates.
+
+For example if there is (x1, y1), (x2, y2), the distance is that |x1 - x2| + |y1 - y2|.
+
+Somebody decided to attend the marathon but he does not want to run the marathon that day.
+
+So he will skip K checkpoints.
+
+It is not possible to skip 1 chekcpoint and N checkpoint.
+
+Create a program that gets the minimum distance for him when he skips K checkpoints.
+
+[ Input ]
+
+The first line contains TC value for the number of test cases.
+
+Test case includes:
+
+	- There are number K (# of skipping checkpoints) and N (# of checkpoints) ( 0 <= k < n <= 500)
+
+	- Then there are N lines containing X[i], Y[i] to indicate the location of the checkpoint.
+
+[ Output ]
+
+Print '#x' (x mean test case number starting at 1)
+
+Print the minimum distance for him.
+
+[ Input Example ]
+2			// the number of test cases
+5 2			// test case 1 : n = 5, k = 2
+0 0			// test case 1 : (x1, y1) = (0, 0)
+8 3			// test case 2 : (x2, y2) = (8, 3)
+1 1
+10 -5
+2 2
+5 3
+0 0
+8 3
+1 1
+10 -5
+2 2
+
+[ Output Example ]
+#1 4			// the minimum distance of test case 1
+#2 4
