@@ -1,0 +1,42 @@
+To think about program below.
+
+while (N > 1) {
+	if (N mod 2 == 0) N = N / 2;
+	else N = 3 * N + 1;
+}
+
+Above program is not confirmed for all numbers if the program can finish.
+
+A person created a similar program based on the above program.
+
+while (N > 1) {
+	if (N mod 2 == 0) N = N / 2;
+	else N = 3 * N + 3;
+}
+
+He expected that the above program could be completed for all numbers.
+
+If there is a number N, create program to make sure it is complete or not.
+
+[ Input ]
+
+The first line contains the TC value for the number of test cases.
+
+The second line contains the number N. (1 <= N <= 100000000000000)
+
+[ Output ]
+
+Print '#x' ( x means test case number starting at 1 )
+
+Print YES when the program can be completed.
+
+Print NO when the program can not be completed.
+
+[ Input Example ]
+2		// the number of test cases
+3		// the first test case N = 3
+4		// the second test case N = 4
+
+[ Output Example ]
+#1 NO		// the first test case result
+#2 YES		// the second test case result
