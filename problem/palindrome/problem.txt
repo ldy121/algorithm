@@ -1,0 +1,40 @@
+The Palindrome is the same even when turned upside down.
+
+For example, '0_0', '404', 'appa' are Palindrome, but'umma', 'koosaga', krill' are not Palindrome.
+
+A person does not like the fact that there is a string whose length is greater than 2 in Palindrome.
+
+A string contains only three lowercase letters 'a', 'b' and 'c'.
+
+A person wants to mix lowercase letters to destroy Palindrome which is greater than 2 in length.
+
+Create program to determine if it is possible or not.
+
+[ Input ]
+
+The first line contains the TC value for the number of test cases.
+
+Then test cases are separated by new line.
+
+Test case includes:
+
+	- The first line of test case contains a string containg only 'a', 'b' and 'c'.
+
+[ Output ]
+
+Print '#x' (x mean test case number starting at 1)
+
+Print if there is no Palindrome combination, print 'YES'.
+
+If not, print 'NO'
+
+[ Input Example ]
+3		// the number of test cases
+abac		// the first test case string S = abac
+aba
+ccbabababac
+
+[ Output Example ] 
+#1 YES		// the first test case result
+#2 NO
+#3 YES
