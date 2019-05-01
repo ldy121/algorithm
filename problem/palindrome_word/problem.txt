@@ -1,0 +1,38 @@
+There is a string S.
+
+The string can be separated by T[1],T[2]...,T[k].
+
+S = T[1] + T[2] + ... + T[K] T[i] >= 1
+
+If all of strings T[i] satisfy T[i] = T[k - i + 1], it is word palindrome.
+
+Create a program to get the number of possibilities that satisfies word palindrom if there is a string S.
+
+[ Input ]
+
+The first line conatins the value T that indicates the number of test cases.
+
+The first line of the test case contains a string S.
+
+The length of string is greater than 1 and less than 10000 and cotiains only lowercase letters.
+
+[ Output ]
+
+Print '#x' (x mean test case number);
+
+Print the number of passibilities to satisify word palindrome.
+
+The number can be huge and print modular output adopting 1000000007
+
+[ Input Example ] 
+4		// The number of test cases
+abc		// The firs test case string S
+girugi
+ababa
+aaaaa
+
+[ Output Example ]
+#1 1		// The first test case result
+#2 2		// The second test case result
+#3 3
+#4 4
