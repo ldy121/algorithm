@@ -1,0 +1,30 @@
+There an L-length string that contains only 'a' and 'b' alternately.
+
+If L = 5, the string is 'ababa'.
+
+If L = 7, the string is 'ababa'.
+
+Create a program to obtain a number of palindrome if L is only an odd number.
+
+[ Input ]
+
+The first line contains the value T which indicates the number of test cases.
+
+The first line of test case contains an odd number L. (3 <= L <= 1000000000)
+
+[ Output ]
+
+Print #x (x mean the test case number starting at 1).
+
+Print the number of palindrome.
+
+[ Input Example ]
+3		// The number of test cases
+3		// The first test case L = 3
+5		// The second test case L = 5
+7
+
+[ Output Example ]
+#1 1		// The first test case result
+#2 4
+#3 9
