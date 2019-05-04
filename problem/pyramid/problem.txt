@@ -1,0 +1,39 @@
+There is a N odd number pyramid.
+
+There are 2N - 1 stones on the first floor and 2N - 3 stones on the second floor ... a stone on the N floor.
+
+There are numbers from 1 to 2N - 1 on the first floor.
+
+For example if the N is 4, there are numbers 1, 2, 3, 4, 5, 6 and 7 on the first floor.
+
+The numbers from the second floor are middle numbers of three numbers left below, right below and below.
+
+      4
+    4 5 4
+  3 6 4 5 4
+1 6 3 7 4 5 2
+
+Create a program that verifies that X can exist on the Nth floor if there is a possible combination on the first floor.
+
+[ Input ]
+
+The first line contains the T value that indicates the number of test cases.
+
+The first line of test case contains two numbers N, X with blank (2 <= N <= 100000, 1 <= X <= 2 * N - 1)
+
+[ Output ]
+
+Print '#x' (x mean test case number starting at 1)
+
+Print 1 if there is X on the N the floor.
+
+If not, print 0.
+
+[ Input Example ]
+2		// The number of test case
+4 4		// The first test case N = 4, X = 4
+2 1
+
+[ Output Example ]
+#1 1		// The first test case result
+#2 0
