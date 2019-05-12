@@ -1,0 +1,50 @@
+A person wants to buy some pizzas for finale party.
+
+However the pizza shop seller does not want to sell pizza.
+
+He gives a problem to him.
+
+If he answer the problem, he can buy some pizzas.
+
+The problem is related to GCD.
+
+GCD(a,0) = a
+GCD(a,b) = GCD(b, a % b)
+
+The GCD function has the above functions.
+
+The person has to find numbers A,B (A>B).
+
+The pizza seller will provide the value K how many of % operations executed
+
+If there are multiple combinations A B, then choose a combination that contains the minimum value of A.
+
+For example % operations are executed three times, the combinations A B can be (5,3), (8,3) and (10,6).
+
+And you have to choose (5,3) because A is minimum in the list.
+
+Please create a program to find out A B combination.
+
+[ Input ]
+
+There is the T value that indicates the number of test cases.
+
+The first line of each test case contains the K value representing the number of % operations.
+
+[ Output ]
+
+Print '#x' (x means test case number starting at 1).
+
+Then print A B combination with a space (A>B)
+
+[ Input Example ]
+3			// The number of test cases
+1			// The first test case K = 1
+3
+20
+
+[ Output Example ]
+#1 2 1			// The first test case result
+#2 5 3
+#3 17711 10946
+
