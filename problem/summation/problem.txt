@@ -1,0 +1,37 @@
+A person wants to buy some pizzas for finale party.
+
+However the pizza shop seller does not want to sell pizza.
+
+He gives a problem to him.
+
+There are ten numbers.
+
+First he has to calculate sum of each digit of each number.
+
+For example there is 1203, the sum of each digit is 6. (1 + 2 + 0 + 3)
+
+The person has to find the maximum and minimum values of the sum of each digit of the ten numbers.
+
+Please create a program to find out minimum and maximum values.
+
+[ Input ]
+
+There is the T value that indicates the number of test cases.
+
+The first line of each test case contains ten numbers from 1 to 1000000 with spaces.
+
+[ Output ]
+
+Print '#x' (x means test case number starting at 1).
+
+Then print the minimum and maximum values with a space.
+
+[ Input Example ]
+2					// The number of test cases
+182 371 29 49 28 21 928 11 5 1		// The first test case K = 1
+13 400 3010 2011 1111 40 4 103 301 100111
+
+[ Output Example ]
+#1 19 1			// The first test case result
+#2 4 4			// The second test case result
+
