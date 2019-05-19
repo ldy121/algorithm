@@ -1,0 +1,40 @@
+There are two handsome boys.
+
+The boys want to compete poularity using a message.
+
+It need to encrypt the message becuase it is very secretive.
+
+A person uses "SAMSUNG" to encrypts the message.
+
+Popularity can be expressed in the number of substring "SAMSUNG".
+
+Create a program to get the number of substrings "SAMSUNG" in the string T.
+
+[ Input ]
+
+The first line contains T value which represents the number of test cases.
+
+The first line of each test case contains only uppercase string of length 1 to 10000
+
+[ Output ]
+
+Print '#x' (x mean test case number) first.
+
+Print the number of sub string "SAMSUNG"
+
+It can be a very large number, so print result of modular by 1000000007.
+
+[ Input Exampe ]
+
+4
+SAMSUNG
+APPLE
+SSAAMMSSUUNNGG
+SAMSUNGSAMSUNG
+
+[ Output Example ]
+#1 1
+#2 0
+#3 128
+#4 10
+
