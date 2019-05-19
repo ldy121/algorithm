@@ -1,0 +1,40 @@
+Create a program to get the number that has the most dividors.
+
+[ Input ]
+
+The first line contains T value which indicates the number of test cases.
+
+The first line of each test case contains the number N (1 <= N <= 100000)
+
+[ Output ]
+
+Please print '#x' (x means test case number)
+
+Print the number which has the most dividors from 1 to N.
+
+If there are many numbers, print the highest number.
+
+[ Input Example ]
+10
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+[ Output Example ]
+#1 1
+#2 2
+#3 3
+#4 4
+#5 4
+#6 6
+#7 6
+#8 8
+#9 8
+#10 10
