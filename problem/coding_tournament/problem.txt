@@ -1,0 +1,46 @@
+There are 2^K people to attend coding tournament.
+
+The tournament is single elimination, each individual can have up to K matches.
+
+Each person has a number 1 to 2^K.
+
+Two people compete using coding.
+
+And a person with better coding skill wins.
+
+If two people have same coding skill, one of them wins.
+
+There are 2^K people, and there are 2^K - 1 competitions.
+
+A person wants to know how boring the competition is.
+
+The boring thing can be calculated by difference of two people's coding skills.
+
+Please create a program to get the sum of boring things in every competition.
+
+[ Input ]
+
+The first line contains T value which represnets the number of test cases.
+
+The first line of each test case contains a number K (1 <= K <= 10)
+
+The second line of each test case contains numbers A[1], A[2], ... A[2 ^ K].
+
+A[i] indicates coding skill.
+
+[ Output ]
+
+Print #x (x mean test case number starting at 1) first.
+
+Print the sum of boring things in every competition.
+
+[ Input Example ]
+2
+2
+7 1 4 3
+3
+31 46 13 29 27 45 10 57
+
+[ Output Example ]
+#1 10
+#2 136
