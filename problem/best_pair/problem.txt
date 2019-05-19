@@ -1,0 +1,47 @@
+There are N numbers, and we have to select two numbers as pair.
+
+When selecting two numbers, there is a condition.
+
+If we define the two numbers as x and y, the multiplication of x and y consists of an increasing sequence and consecutive numbers.
+
+For example, 2, 23, 23456, 56789 are satisfied above condition.
+
+But 51, 54321, 67890, 89012, 88, 889, 79 do not meet the above condition.
+
+The maximum value of the multiplication of two number that satisfy the above condition is the best pair.
+
+Create a probelm whether there is a best pair or not.
+
+If so, calculate multiplication of the best pair.
+
+[ Input ]
+
+The first line contains TC value which represents the number of test cases.
+
+Then, each test case includes folowing:
+
+	- The first line of each test case contains N which represents the number of numbers (1 <= N <= 1000)
+
+	- The second line of each test case has N numbers, each number ranging from 1 to 10000.
+
+[ Output ]
+
+Print #x (x mean test case number starting at ) first.
+
+Then print multiplication of the best pair.
+
+If there is no the best pair, print -1
+
+[ Input Example ]
+3
+2
+1 5
+3
+3 22 115
+2
+5 27
+
+[ Output Example ]
+#1 5
+#2 345
+#3 -1
