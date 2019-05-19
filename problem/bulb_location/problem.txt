@@ -1,0 +1,38 @@
+A person has a light bulb that is off.
+
+He can use a switch to turn on the bulb.
+
+If the switch works well, the bulb operation will work properly.
+
+So if the bolb is off, it will be on.
+
+If the bulb is on, it will be off.
+
+Unfortunately the switch may or may not work properly.
+
+There is a probability p value which indicates that the bulb is working properly.
+
+Please create a program to get the probability that a peron touch the switch N times to get the light on.
+
+[ Input ]
+
+The first line contains T value which indicates the number of test case.
+
+The first line of each test case contains the real number p(0 <= p <= 1) and the number N(1 <= N <= 10000000000000) with a space.
+
+p can decimal point of 6th digit.
+
+[ Output ]
+
+Print '#x' (x mean test case number starting at 1).
+
+Print the probability of light on.
+
+[ Input Example ]
+2
+0.7 1
+0.000001 1000000000
+
+[ Output Example ]
+#1 0.7
+#2 0.5
