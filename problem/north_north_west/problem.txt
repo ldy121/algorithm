@@ -1,0 +1,50 @@
+We can express any particular direction such as east, west, north and north.
+
+For example, northwest indicates the middle of north and west, northnorthwest indicates the middle of north and northwest.
+
+You have to indicate direction north and west.
+
+- north indicates 0 degree.
+- west indicates 90 degree.
+
+North dir = a - (90 / 2 ^ n)
+West  dir = a + (90 / 2 ^ n)
+
+West : dir = 90
+NorthWest : dir = 90 - (90/2) = 45
+NorthNorthWest = 45 - (90/2^2) = 45/2
+
+Create a program to get a direction and degree.
+
+[ Input ]
+
+The first line contains T value which indicates the number of test cases.
+
+The first line of each test case contains a string.
+
+The sum of "north" and "west" is from 1 to 20.
+
+[ Output ]
+
+Print #x (x means test case number starting at 1).
+
+Print the direction and degree.
+
+If the degree is not possible to express as number, please print as a fraction.
+
+[ Input Example ]
+6
+north
+west
+northwest
+northnorthwest
+westwestwestnorth
+westnorthnorthwest
+
+[ Output Example ]
+#1 0
+#2 90
+#3 45
+#4 45/2
+#5 315/4
+#6 135/4

@@ -1,0 +1,7 @@
+6
+north
+west
+northwest
+northnorthwest
+westwestwestnorth
+westnorthnorthwest
