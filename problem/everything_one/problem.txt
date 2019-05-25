@@ -1,0 +1,49 @@
+A programmer has developed an operating system which stops at 111....111 seconds binary.
+
+One has to know when the operating system stops.
+
+Please create a program to get the time operating system stops.
+
+[ Input ]
+
+The first line contains T that represents the number of test cases.
+
+The first line of test case contains the time represented by Y/MM/DD hh:mm:ss.
+
+Y,MM,DD,hh,mm and ss are numbers.
+(1900 <= Y <= 20012, 01 <= MM <= 12, 01 <= DD <= 31, 0 <= hh <= 23, 0 <= mm, ss <= 59)
+
+MM, DD, hh, mm and ss are represented by two digits.
+
+The second line of test case contains a string consisting on only 1 and a length of 1 to 30.
+
+Also ignore the leap year.
+
+[ Output ]
+
+Print #x first (x means test case number starting at 1).
+
+Print the stop time in the same format as the input.
+
+[ Input Example ]
+6
+2017/07/16 03:05:00
+1
+2016/02/29 17:45:00
+111
+2016/02/25 00:00:00
+11111111
+2016/06/28 20:16:15
+1111111111111111
+2020/11/02 16:22:33
+1111111111111111111111111111
+20012/10/02 12:00:21
+111111111111111111111111111111
+
+[ Output Example ]
+#1 2017/07/16 03:05:01
+#2 2016/02/29 17:45:07
+#3 2016/02/05 00:04:15
+#4 2016/06/29 14:28:30
+#5 2029/05/06 13:46:48
+#6 20046/10/12 01:37:24
