@@ -1,0 +1,38 @@
+It is somebody's  birthday tomorrow.
+
+Somebody does not have enough money to prepare a gift.
+
+He person parepares a number instead of a gift.
+
+He likes number x and y, the person wants to make a number consisting only x and y.
+
+Please create a program to get the maximum number consisting only x and y.
+
+[ Input ]
+
+The first line contains T value which represents the number of test cases.
+
+The first line contains three numbers N, x and y with spaces.
+
+(1 <= N <= 10^100000, 0 <= x,y <= 9)
+
+[ Output ]
+
+Print #x (x mean test case number starting at 1)
+
+Print the maximum number that can be a gift.
+
+If there is not available number, print -1
+
+[ Input Example ]
+4
+16 1 3
+2 6 9
+5 0 8
+422223324 2 4
+
+[ Output Example ]
+#1 13
+#2 -1
+#3 -1
+#4 4222222444
