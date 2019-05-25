@@ -1,0 +1,40 @@
+It moves from (x1, y1) to (x2, y2).
+
+It is possible move from (x,y) to (x + 1, y) or (x - 1, y) or (x, y + 1), or (x, y- 10.
+
+(x + 1, y) or (x - 1, y) is a horizontal shift.
+
+(x, y - 1) or (x, y + 1) is a vertical shift.
+
+A person thought it is not funny to move from (x1, x1) to (x2, y2).
+
+If it is a horizontal movement of the previous turn, it moves vertically in this turn.
+
+If it is a vertical movement of the previous turn, it moves horizontally in this turn.
+
+It is possible to do either way on the first turn.
+
+Please create a program to get the minimum shift that can be reached from (x1, y1) to (x2, y2).
+
+[ Input ]
+
+The first line contains T that represents the number of test cases.
+
+The first line of test case contains four numbers x1,y1,x2,y2 (-100 <= x1,y1,x2,y2 <= 100)
+
+[ Output ]
+
+Print #x (x mean test case number starting at 1)
+
+Print the minimum movement.
+
+[ Input Example ]
+3
+0 0 1 0
+-1 -1 0 0
+0 0 0 2
+
+[ Output Example ]
+#1 1
+#2 2
+#3 4
