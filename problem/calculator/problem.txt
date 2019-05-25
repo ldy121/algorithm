@@ -1,0 +1,37 @@
+There are N number A[1],A[2],....A[N].
+
+These number are entered into the calculator.
+
+There is a operation between each number.
+
+The operation can be either a multiplication or an addition.
+
+A[1] (+ or x) A[2] (+ or x) A[3] ... (+ or x) A[N]
+
+It does not need consider operation priorities.
+
+Please create program to get the maximum number if there is an order.
+
+[ Input ]
+
+The first line contains test case T that represents the number of test cases.
+
+The first line of test case contains the number N. (1 <= N <= 9)
+
+The second line of test case contains N numbers A[1], A[2], ... A[N] with spaces.
+
+[ Output ]
+
+Print the test case number '#x' (x means test case number starting at 1)
+
+Print the maximum number.
+
+[ Input Example ]
+2
+3
+1 2 3
+4
+4 0 0 4
+[ Output Example ]
+#1 9
+#2 16
