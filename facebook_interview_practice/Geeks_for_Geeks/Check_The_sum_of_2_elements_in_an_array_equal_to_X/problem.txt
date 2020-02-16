@@ -1,0 +1,2 @@
+ You have an array of n elements, and a sum. Check if any 2 elements in the array sum to the given sum.
+ Expected time complexity O(n).
