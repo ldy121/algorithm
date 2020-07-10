@@ -1,0 +1,29 @@
+Given an array Arr of N numbers and another number target, find three integers in the array such that the sum is closest to target.
+Return the sum of the three integers.
+
+NOTE: If their exists more than one answer then print the maximum sum.
+
+Input:
+The first line of input contains the number of test cases T.
+For each test case, the first line of input contains N and target.
+Next line contains array elements.
+
+Output:
+Sum of the three integers.
+
+Your Task:
+Complete threeSumClosest() function and return the expected answer.
+
+Expected Time Complexity: O(N*N).
+Expected Auxiliary Space: O(1).
+
+Example:
+Input:
+2
+6 2
+-7 9 8 3 1 1 
+4 13
+5 2 7 5
+Output:
+2
+14

@@ -1,0 +1,26 @@
+Given an array a[] of n integers, a triplet (a[i], a[j], a[k]) is called Magic Triplet if a[i] < a[j] < a[k] and i < j < k.
+The task is to count number of magic triplets in a given array.
+
+Input:
+The first line contains an integer 'T' denoting the total number of test cases.
+In each test cases, the first line contains an integer 'N' denoting the size of array.
+The second line contains N space-separated integers A1, A2, ..., AN denoting the elements of the array.
+
+Output:
+In each seperate line print the number of such triplets.
+
+Constraints:
+1 <= T <= 100
+1 <= N <= 105
+1 <= A[i] <= 5000
+
+Example:
+Input:
+2
+3
+3 2 1
+4
+1 2 3 4
+Output:
+0
+4

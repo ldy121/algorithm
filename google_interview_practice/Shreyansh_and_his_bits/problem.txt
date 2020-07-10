@@ -1,0 +1,41 @@
+Shreyansh has an integer N.
+He is really curious about the binary representation of integers.
+He sees that any given integer has a number of set bits. Now he wants to find out that how many positive integers, strictly less than N, have the same number of set bits as N.
+He is a little weak in maths. Help him find the number of integers.
+Note : Since N takes large values, brute force won't work.
+
+Input : 
+First line of input contains a single integer T denoting the number of test cases.
+The only line of each test case contains an integer N.
+
+Output : 
+For each test case, print the required answer in a new line.
+
+Constraints : 
+1 <= T <= 1000
+1 <= N <= 10^12
+
+Example : 
+Input : 
+3
+8
+1
+4
+
+Output : 
+3
+0
+2
+
+Explanation : 
+Case 1 : 
+Binary representation of 8 : 1000
+So the integers less than 8 with same number of set bits are : 4, 2, 1
+
+Case 2 : 
+Binary representation of 1 : 1
+There are no positive integers less than 1.
+
+Case 3 : 
+Binary representation of 8 : 100
+So the integers less than 4 with same number of set bits are : 2, 1

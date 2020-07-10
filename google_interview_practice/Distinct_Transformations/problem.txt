@@ -1,0 +1,31 @@
+Given two sequences A, B, find out number of unique ways in sequence A, to form a subsequence that is identical to the sequence B.
+
+Example :
+A = "abcccdf"  B = "abccdf"
+
+Return 3. And the formations as follows:
+
+A1= "ab.ccdf"
+A2= "abc.cdf"
+A3="abcc.df"
+
+"." is where character is removed.
+
+
+Input:
+First line contains the test cases T.  1<=T<=500
+Each test case have two lines
+First is a string A of length less than 1000.
+Second is a string B of length less than 100.
+
+Exapmle:
+Input:
+2
+abcccdf
+abccdf
+uwnny
+uwnny
+
+Output:
+3
+1

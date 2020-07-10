@@ -1,0 +1,16 @@
+Move all occurence of letter ‘x’ from the string s to the end using Recursion
+Given a string s, our task is to move all the occurrence of letter x to the end of the string s using recursion.
+
+Note: If there are only letter x in the given string then return the string unaltered.
+
+Examples:
+
+Input: s= “geekxsforgexxeksxx”
+Output: geeksforgeeksxxxxx
+Explanation:
+All occurrence of letter ‘x’ is moved to the end.
+
+Input: s = “xxxxx”
+Output: xxxxx
+Explanation:
+Since there are only letter x in the given string therefore the output is unaltered.
