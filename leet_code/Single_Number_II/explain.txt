@@ -1,0 +1,20 @@
+int singleNumber(vector<int>& nums) {
+    int ONE = 0;
+    int TWO = 0;
+    
+    for (int x : nums){
+        ONE = (ONE^x) & ~TWO; // ONE 값에는 한번 나온 것에 대한 XOR 값 기록
+        TWO = (TWO^x) & ~ONE; // TWO 값에는 두번 나온 것에 대한 XOR 값 기록
+    }                         // 세번째 나오는 값은 XOR를 실시하더라도 TWO 값에 의해서 MASK 처리됨
+    													// 즉 세번 나오는 값으로 0으로 치환되어 XOR가 수행되게 된다.
+    return ONE;
+}
+
+예시
+
+      3   3   3    1
+ONE   11  00  00  01
+TWO   00  11  11  11
+
+따라서 답은 1이 되게 된다.
+
